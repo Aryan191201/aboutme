@@ -29,14 +29,14 @@ h1{
 .underline{
   text-decoration: underline;
 }
-.bottom{
+/*.bottom{
   position:absolute;
   left: 300px;
 }
 .upper{
   position: absolute;
   right: 300px;
-}
+}*/
 .coding{
   border-radius: 50%;
   height: 150px;
