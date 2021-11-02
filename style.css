@@ -1,0 +1,54 @@
+body {
+  background-color: #69DADB;
+  margin: 0;
+  text-align: center;
+  font-family: "tahoma",sans-serif;
+}
+h4{
+  color: deepskyblue;
+  font-family: "Georgia",sans-serif;
+}
+div{
+  background-color: #E4F9F5;
+  border:solid 10px;
+  margin: 10px;
+  padding: 20px;
+  border-color: white;
+  position: relative;
+  padding: 20px;
+}
+h1{
+  font-style: italic;
+  margin: 0;
+  font-weight: bold;
+  font-family: "Trebuchet MS",sans-serif;
+}
+#heading{
+  color: dodgerblue;
+}
+.underline{
+  text-decoration: underline;
+}
+.bottom{
+  position:absolute;
+  left: 300px;
+}
+.upper{
+  position: absolute;
+  right: 300px;
+}
+.coding{
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}
+.cycle{
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}
+.snap{
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}
