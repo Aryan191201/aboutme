@@ -37,7 +37,7 @@ p{
   position: relative;
 }
 .bottom-container{
-  background-color: black;
+  background-color: maroon;
   position: relative;
 }
 .A-sq{
@@ -47,7 +47,7 @@ h3{
   color: red;
 }
 hr {
-  color: white;
+    background-color: white;
     border-style: dashed;
     border-bottom-style: groove;
     width: 10%;
@@ -84,9 +84,10 @@ h2{
   border:solid 10px;
   border-color: white;
 }
-.contact-me{
-  border:solid 10px;
-  border-color: white;
+.card-deck{
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
 }
 .hobbies{
   border:solid 10px;
