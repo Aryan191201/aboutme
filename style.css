@@ -53,6 +53,7 @@ p{
   border-radius: 50%;
 }
 .copyright{
+  background-color: black;
   color: red;
   font-size: 0.8rem;
   font-weight: bold;
