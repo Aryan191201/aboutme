@@ -24,6 +24,13 @@ p{
 .icon:hover{
   color: #ff8a80;
 }
+.copy{
+  color: red;
+  margin-bottom: 1rem;
+}
+.copy:hover{
+  color: #ff8a80;
+}
 .start{
   background-color: black;
   margin: 10px;
@@ -37,11 +44,18 @@ p{
   position: relative;
 }
 .bottom-container{
-  background-color: maroon;
-  position: relative;
+  text-align: center;
+}
+.copyright:hover{
+  color: #ff8a80;
 }
 .A-sq{
   border-radius: 50%;
+}
+.copyright{
+  color: red;
+  font-size: 0.8rem;
+  font-weight: bold;
 }
 h3{
   color: red;
@@ -75,6 +89,7 @@ h2{
   margin: 100px auto 100px auto;
   line-height: 2;
   text-align: left;
+  padding-left: 2%;
 }
 .profile{
   border:solid 10px;
@@ -96,6 +111,7 @@ h2{
   margin: 100px auto 100px auto;
   line-height: 2;
   text-align: left;
+  padding-left: 2%;
 }
 .underline{
   text-decoration: underline;
@@ -149,4 +165,27 @@ a{
 }
 a:hover{
   color: #ef5350;
+}
+@media (max-width:834px) {
+  .cycle{
+    float: inherit;
+    height: 140px;
+    width: 140px;
+    position: static;
+  }
+  .coding{
+    float: inherit;
+    height: 140px;
+    width: 140px;
+    position: static;
+  }
+  .hobbies{
+    text-align: center;
+    width: 80%;
+  }
+  .skill-row{
+    text-align: center;
+    width: 80%;
+  }
+
 }
