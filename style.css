@@ -1,35 +1,16 @@
 body {
-  background-color: maroon;
+  background-color: #48aaad;
   margin: 0;
   text-align: center;
   font-family: "Montserrat",sans-serif;
 }
-h4{
-  color: #ff8a80;
-  font-family: "Georgia",sans-serif;
+                               /* Starting */
+
+.A-sq{
+  border-radius: 50%;
 }
-p{
-  color: white;
-}
-#features{
-  padding: 7% 15%;
-}
-.feature-box{
-  text-align: center;
-}
-.icon{
-  color: maroon;
-  margin-bottom: 1rem;
-}
-.icon:hover{
-  color: #ff8a80;
-}
-.copy{
-  color: red;
-  margin-bottom: 1rem;
-}
-.copy:hover{
-  color: #ff8a80;
+#heading{
+  color: #66fcf1;
 }
 .start{
   background-color: black;
@@ -37,29 +18,71 @@ p{
   padding: 10px;
   position: relative;
 }
+.underline{
+  text-decoration: underline;
+}
+
+                             /* Hello-Section */
 .middle-container{
   background-color: black;
   margin: 10px;
   padding: 10px;
   position: relative;
 }
-.bottom-container{
+.profile{
+  border:solid 10px;
+  border-color: white;
+}
+                              /* For Links */
+a{
+color: #66fcf1;
+font-family: "Georgia",sans-serif;
+margin: 10px;
+text-decoration: none;
+}
+a:hover{
+color: #3feee6;
+}
+
+
+                               /* Features */
+#features{
+  padding: 7% 15%;
+}
+.feature-box{
   text-align: center;
 }
-.copyright:hover{
-  color: #ff8a80;
+.icon{
+  color: #48aaad;
+  margin-bottom: 1rem;
 }
-.A-sq{
-  border-radius: 50%;
+.icon:hover{
+  color: #3feee6;
 }
-.copyright{
-  background-color: black;
-  color: red;
-  font-size: 0.8rem;
+
+                              /* Headings */
+h1{
+  font-style: italic;
+  margin: 50px auto 0 auto;
   font-weight: bold;
+  font-size: 2.5rem;
+}
+
+h2{
+  color: #66fcf1;
+  padding-bottom: 10px;
+  font-weight: bold;
+  font-size: 2rem;
 }
 h3{
-  color: red;
+  color: #66fcf1;
+}
+h4{
+  color: #45a29e;
+  font-family: "Georgia",sans-serif;
+}
+p{
+  color: white;
 }
 hr {
     background-color: white;
@@ -68,20 +91,10 @@ hr {
     width: 10%;
     margin: 100px auto;
 }
-h1{
-  font-style: italic;
-  margin: 50px auto 0 auto;
-  font-weight: bold;
-  font-size: 2.5rem;
-}
-#heading{
-  color: red;
-}
-h2{
-  color: red;
-  padding-bottom: 10px;
-  font-weight: bold;
-  font-size: 2rem;
+                          /* Skills & Hobbies */
+.skills{
+  border:solid 10px;
+  border-color: white;
 }
 .skill-row{
   border:solid 10px;
@@ -92,18 +105,12 @@ h2{
   text-align: left;
   padding-left: 2%;
 }
-.profile{
-  border:solid 10px;
-  border-color: white;
-}
-.skills{
-  border:solid 10px;
-  border-color: white;
-}
-.card-deck{
-  margin: 0 auto;
-  float: none;
-  margin-bottom: 10px;
+.coding{
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  float: left;
+  margin-right: 30px;
 }
 .hobbies{
   border:solid 10px;
@@ -114,16 +121,6 @@ h2{
   text-align: left;
   padding-left: 2%;
 }
-.underline{
-  text-decoration: underline;
-}
-.coding{
-  border-radius: 50%;
-  height: 100px;
-  width: 100px;
-  float: left;
-  margin-right: 30px;
-}
 .cycle{
   border-radius: 50%;
   height: 140px;
@@ -131,13 +128,20 @@ h2{
   float: right;
   margin-right: 30px;
 }
+
+                                /* CONTACT-ME */
+.card-deck{
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
+}
 .btn {
-  background: maroon;
-  background-image: -webkit-linear-gradient(top, maroon, black);
-  background-image: -moz-linear-gradient(top, maroon, black);
-  background-image: -ms-linear-gradient(top, maroon, black);
-  background-image: -o-linear-gradient(top, maroon, black);
-  background-image: linear-gradient(to bottom, maroon, black);
+  background: #48aaad;
+  background-image: -webkit-linear-gradient(top, #48aaad, black);
+  background-image: -moz-linear-gradient(top, #48aaad, black);
+  background-image: -ms-linear-gradient(top, #48aaad, black);
+  background-image: -o-linear-gradient(top, #48aaad, black);
+  background-image: linear-gradient(to bottom, #48aaad, black);
   -webkit-border-radius: 8;
   -moz-border-radius: 8;
   border-radius: 8px;
@@ -147,26 +151,35 @@ h2{
   padding: 10px 20px 10px 20px;
   text-decoration: none;
 }
-
 .btn:hover {
   background: black;
-  background-image: -webkit-linear-gradient(top, black, maroon);
-  background-image: -moz-linear-gradient(top, black, maroon);
-  background-image: -ms-linear-gradient(top, black, maroon);
-  background-image: -o-linear-gradient(top, black, maroon);
-  background-image: linear-gradient(to bottom, black, maroon);
+  background-image: -webkit-linear-gradient(top, black, #66fcf1);
+  background-image: -moz-linear-gradient(top, black, #66fcf1);
+  background-image: -ms-linear-gradient(top, black, #66fcf1);
+  background-image: -o-linear-gradient(top, black, #66fcf1);
+  background-image: linear-gradient(to bottom, black, #66fcf1);
   color: #ffffff;
   text-decoration: none;
 }
-a{
-  color: red;
-  font-family: "Georgia",sans-serif;
-  margin: 10px;
-  text-decoration: none;
+                           /* Last-Section */
+.copy{
+  color: #66fcf1;
+  margin-bottom: 1rem;
 }
-a:hover{
-  color: #ef5350;
+.copy:hover{
+  color: #3feee6;
 }
+.copyright{
+  background-color: black;
+  color: #66fcf1;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.copyright:hover{
+  color: #3feee6;
+}
+
+                          /* For Mobile  */
 @media (max-width:834px) {
   .cycle{
     float: inherit;
